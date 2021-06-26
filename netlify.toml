@@ -5,4 +5,4 @@
 [build.environment]
   HUGO_VERSION = "0.62.2"
   HUGO_THEME = "parsa-hugo"
-  HUGO_BASEURL = "/"
+  HUGO_BASEURL = "https://blog-attreq.netlify.app"
