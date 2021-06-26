@@ -60,7 +60,7 @@
 <!-- blog post -->
 <section class="section">
   <div class="container">
-    {{ $paginator := .Paginate site.RegularPages }}
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" "post, featured") }}
     {{ if eq site.Params.layout "1" }}
     <div class="row masonry-container">
       {{ range $paginator.Pages }}
