@@ -62,6 +62,7 @@
   <div class="container">
     {{ $pages := where site.RegularPages "Type" "post" }}
     {{ $pages := $pages | union (where site.RegularPages "Type" "featured") }}
+    {{ $pages }}
     {{ $paginator := .Paginate $pages }}
     {{ if eq site.Params.layout "1" }}
     <div class="row masonry-container">
