@@ -6,39 +6,38 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "ATTREQ Blog | Amazing Outfits, Flamboyant Wardrobes, Mindful Comsumption, Mind-boggling Inspiration, Fashion News and more"
 [[menu.main]]
-name = "Instagram"
-parent = "Follow Us!"
-url = "https://www.instagram.com/heyattreq/"
+hasChildren = true
+name = "Homepage"
+url = ""
 weight = 1
 [[menu.main]]
-name = "LinkedIn"
-parent = "Follow Us!"
-url = "https://linkedin.com/company/attreq"
-weight = 2
+name = "Homepage 1"
+parent = "Homepage"
+url = "homepage/home-1"
 [[menu.main]]
-hasChildren = true
-name = "Follow Us!"
+name = "Homepage 2"
+parent = "Homepage"
+url = "homepage/home-2"
+[[menu.main]]
+name = "About"
+url = "about"
 weight = 2
 [[menu.main]]
 name = "Contact"
-url = "https://attreq.com/#contact"
+url = "contact"
 weight = 3
-[[menu.main]]
-name = "attreq.com"
-url = "https://attreq.com"
-weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "6 rip carl Avenue CA 90733"
+address = "#"
 contact_form_action = "#"
 copyright = "Created with ❤️ in DEL. &copy; 2021 [ATTREQ Pvt. Ltd.](https://attreq.com)"
 description = "This is meta description"
-email = "exmaple@ymail.com"
+email = "#"
 home = "Home"
 layout = "1"
 logo = "blog.ATTREQ"
-mobile = "+90 000 333 22"
+mobile = "#"
 preloader = true
 search = true
 [params.cookies]
@@ -76,17 +75,11 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 [[params.social]]
-icon = "ti-facebook"
-link = "https://facebook.com/themefisher"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://linkedin.com/company/attreq"
 [[params.social]]
-icon = "ti-github"
-link = "#"
+icon = "ti-instagram"
+link = "https://www.instagram.com/heyattreq/"
 [taxonomies]
 author = "authors"
 category = "categories"
