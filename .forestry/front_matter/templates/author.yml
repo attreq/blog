@@ -1,0 +1,22 @@
+---
+label: author
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: name
+  label: name
+- type: text
+  name: photo
+  label: photo
+- type: text
+  name: role
+  label: role
+- type: text
+  name: follow
+  label: follow
+- type: textarea
+  name: description
+  label: description
