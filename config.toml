@@ -22,12 +22,12 @@ url = ""
 weight = "3"
 [[menu.main]]
 name = "Instagram"
-parent = "Homepage"
+parent = "Follow Us!"
 url = "https://instagram.com/heyattreq"
 weight = ""
 [[menu.main]]
 name = "LinkedIn"
-parent = "Homepage"
+parent = "Follow Us!"
 url = "https://linkedin.com/company/attreq"
 [[menu.main]]
 name = "Contact"
