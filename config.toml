@@ -1,4 +1,5 @@
-baseurl = "https://blog.attreq.com/"
+baseurl = ""
+relativeURLs = "True"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
@@ -13,7 +14,7 @@ weight = "1"
 [[menu.main]]
 hasChildren = ""
 name = "Our Authors"
-url = "https://blog.attreq.com/authors"
+url = "/authors"
 weight = "2"
 [[menu.main]]
 hasChildren = true
