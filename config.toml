@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "/"
 relativeURLs = "True"
 googleAnalytics = ""
 languageCode = "en-us"
