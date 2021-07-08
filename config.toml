@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://blog.attreq.com/"
 relativeURLs = "True"
 googleAnalytics = ""
 languageCode = "en-us"
